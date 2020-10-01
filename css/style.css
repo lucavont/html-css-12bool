@@ -6,11 +6,11 @@
 
 [class*=col-]{
   border: 1px solid black;
-  width: 100%;
   padding: 5px;
   text-align: center;
   vertical-align: middle;
   background-color: pink;
+  height: 150px;
 }
 
 [class*=col-] p {
@@ -20,12 +20,12 @@
   transform: translate(-50%, -50%);
 }
 
-.nested > .col-2, .nested > .col-8, .nested .col-6 {
+.nested > .col-lg-2, .nested > .col-lg-8, .nested .col-lg-6 {
   border: 1px solid white;
   background-color: #f07f80;
 }
 
-.nested > .col-6 {
+.nested > .col-lg-6 {
   background-color: #f07f80;
 }
 
